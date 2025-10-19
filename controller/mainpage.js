@@ -4,4 +4,4 @@ const router = express.Router();
 export default router;
 
 router.get('/', (req, res) => {
-    res.send('mainpage');
+    res.send('mainpage')});

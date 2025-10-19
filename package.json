@@ -1,0 +1,22 @@
+{
+  "name": "broker-crypto",
+  "version": "1.0.0",
+  "description": "Web exchange",
+  "main": "broker.js",
+  "type": "module",
+  "scripts": {
+    "start": "broker.js",
+    "devstart": "nodemon broker.js"},
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

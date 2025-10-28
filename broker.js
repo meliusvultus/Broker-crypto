@@ -15,4 +15,4 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use('/', mainpageRouter)
 
-app.listen(port, () => {console.log('up and running')})
+app.listen(port, () => {console.log('up and running'), console.log(path.join(process.cwd(), 'public'))})

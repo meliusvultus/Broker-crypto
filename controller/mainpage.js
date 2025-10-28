@@ -5,3 +5,5 @@ export default router;
 
 router.get('/', (req, res) => {
     res.render('mainpage');});
+router.get('/about', (req, res) => {
+})

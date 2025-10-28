@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/styletemplate.css">
+    <link rel="stylesheet" href="/styles/mainnavbar.css">
+    <link rel="stylesheet" href="/public/styletemplate.css">
 </head>
 <body>
-    <header>
-        <h1>Broker Template Header</h1>
-    </header>
+    <%- include('../partials/mainnavbar.ejs') %>
     <main>
         <%- body %>
     </main>

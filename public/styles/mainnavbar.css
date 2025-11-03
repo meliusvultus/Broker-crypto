@@ -3,6 +3,7 @@ header{
     margin: 0em;
     padding: 0em;
     height: auto;
+    z-index: 199999;
 }
 
 

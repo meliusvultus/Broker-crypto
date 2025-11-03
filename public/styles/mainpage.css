@@ -5,11 +5,12 @@
 }
 .mainpage{
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2em;
-    background-image: url();
+    /*background: red;*/
+    background: url(.../images/background.mp4);
 }

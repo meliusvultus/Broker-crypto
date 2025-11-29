@@ -1,4 +1,4 @@
-import animix from "./Manimix"
+import animix from "./Manimix.js"
 
 
 const welcome = document.querySelector('.welcome')

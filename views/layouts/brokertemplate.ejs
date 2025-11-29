@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="styles/mainnavbar.css">
     <link rel="stylesheet" href="styles/mainpage.css">
     <link rel="stylesheet" href="styles/glass.css">
+    <link rel="stylesheet" href="styles/brokertemplate.css">
 </head>
 
 <body>
-    <%- include('../partials/mainnavbar.ejs') %>
+        <%- include('../partials/mainnavbar.ejs') %>
+    <video class="bkgvid" muted autoplay loop preload="auto">
+        <source src="images/background.mp4" type="video/mp4">
+    </video>
+    
     <%- body %>
     <footer>
-        <p>Broker Template Footer</p>
     </footer>
-    <script src="/public/js/glass.js"></script>
+    <script src="js/glass.js" type="module"></script>
 </body>
 
 </html>

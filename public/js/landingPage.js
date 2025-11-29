@@ -1,0 +1,1 @@
+import animix from "./Manimix"

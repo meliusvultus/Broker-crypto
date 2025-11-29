@@ -1,4 +1,4 @@
-import animix from './Manimix.js';
+import animix from "./Manimix"
 
 
 const welcome = document.querySelector('.welcome')
@@ -36,8 +36,7 @@ animix.to(datasplitwelcome, 0.4, {y: 0,
     ease: 'ease',
   })
   
-  animix.fromTo(btn3d, 1.5, {
-   y: 200,
+  animix.fromTo(btn3d, 1.5, {y: 200,
     opacity: 0,
     ease: 'ease-in'
   }, {
@@ -45,5 +44,6 @@ animix.to(datasplitwelcome, 0.4, {y: 0,
       opacity: 1,
       ease: 'ease-in'
   })}}
-  const animateLandingPage = new anime()
-  window.onload = animateLandingPage.tween()
+  const animateLandingPage = new anime();
+  window.onload = animateLandingPage.tween();
+  console.log("JS loaded!")

@@ -22,6 +22,7 @@ top: 0px;
 }
 .text{
   margin: 0rem 4rem;
+  width: calc(100vw - 8rem);
 }
 .glassBackgroundInfo > .text > h1{
   color: rgb(72, 199, 142);

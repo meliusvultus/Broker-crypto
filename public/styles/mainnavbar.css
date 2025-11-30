@@ -5,7 +5,7 @@ header{
     top: 0em;
     width: 100%;
     margin: 0em;
-    padding: 0em;
+    padding-top: 3em;
     height: 80px;
     z-index: 199999;
 }
@@ -23,6 +23,7 @@ nav{
     
 }
 nav li{
+
     text-decoration: none;
     list-style: none;
     display: inline-block;
@@ -42,9 +43,10 @@ nav ul{
     gap: 2em;
 }   
 #links{
+    font-size: 1.5em;
     text-decoration: none;
     color: rgba(206, 208, 205, 0.6);
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 0.5em 0.9em;
     cursor: pointer;
 }

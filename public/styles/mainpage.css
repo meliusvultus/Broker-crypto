@@ -3,6 +3,12 @@
     margin: 0em;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .mainpage{
     width: 100%;
     height: 100%;

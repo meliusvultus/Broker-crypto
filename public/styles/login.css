@@ -1,12 +1,22 @@
-.form {
+.loginwrapper{position: absolute;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgba(225, 225, 225, 0.197);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  top: 0rem;
+}
+
+.form {
   text-align: center;
   width: 35rem;
   padding: 4rem 4rem;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   border-radius: 2rem;
   box-shadow: 0 10px 35px rgba(0,0,0,0.2);
   font-family: Arial, sans-serif;

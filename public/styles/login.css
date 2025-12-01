@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgba(225, 225, 225, 0.197);
@@ -11,8 +12,9 @@
 }
 
 .form {
-  text-align: center;
+  align-self: center;
   width: 35rem;
+  margin: 0rem auto;
   padding: 4rem 4rem;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(6px);

@@ -2,9 +2,15 @@
   <input
     type="<%= type %>"
     name="<%= name %>"
-    value="<%= value || '' %>"
-    placeholder=" "
-    required="<%= required  %>"
+    value="<%= value || null %>"
+    placeholder<%= placeholder || '' %>
+    required=" "
   >
   <label for="<%= name %>"><%= label %></label>
 </div>
+
+<style>
+  label{
+    color: red;
+  }
+</style>

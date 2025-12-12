@@ -1,13 +1,11 @@
-const arr = ['start investing today', 'grow your wealth', 'earn interests'];
-function dynamicHeader (arr) {
+const words = ['start investing today', 'grow your wealth', 'earn interests'];
+function dynamicHeader (arr, classtarget) {
     let arrLength = arr.length;
-    console.log(arrLength)
+    let classTarget = document.querySelector(classtarget);
     let index = 0;
-    setTimeout((index) => {
-        index ++
+    setInterval(() => {
+        classTarget.innerHTML = arr[index];
+        let index = (index + 1) % arrLength;
     }, 2000);
-    let Loopindex = index % arr.Length;
-    return arr[Loopindex]
 }
-
-export default dynamicHeader;
+dynamicHeader(words, '.loginheader');

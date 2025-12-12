@@ -1,6 +1,14 @@
+<div class="loginformWrapper">
+  <div class="loginInfo">
+    <h1 class="loginheader">Invest Today</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Login with</p>
+  </div>
+  <form action="/login" method="post" class="loginform">
+    <input type="password" name="password">
+    <label for="password">Password</label>
 
-<% if (logIn) { %>
- <%- include('../partials/components/login.ejs') %> 
- <% } else { %>
-  <%- include('../partials/components/register') %> 
-<% } %>
+    <input type="email" name="email">
+    <label for="email"></label>
+  </form>
+</div>

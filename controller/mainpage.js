@@ -1,5 +1,4 @@
 import express, { Router } from 'express';
-import dynamicHeader from '../public/js/ejshelpers/userLR.js';
 
 const router = express.Router();
 

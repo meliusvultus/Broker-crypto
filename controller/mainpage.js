@@ -1,5 +1,5 @@
 import express, { Router } from 'express';
-
+import auth from './auth/auth.js'
 const router = express.Router();
 
 
@@ -15,10 +15,7 @@ router.get('/', (req, res) => {
 router.get('/about', (req, res) => {
     res.render('partials/about')
 })
-router.get('/login', (req, res) => {
-    res.render('partials/login', {logIn: 'false', dynamicHeader
-    })
-});
-router.get('/register', (req, res) => {
-    res.render('partials/register')
+
+router.get('/auth', (req, res) => {
+    res.render('partials/auth')
 })
